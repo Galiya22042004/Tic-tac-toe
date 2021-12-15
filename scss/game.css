@@ -1,0 +1,75 @@
+body {
+	width: 100%;
+	min-height: 100px;
+	font-family: "Arial", sans-serif;
+	background: linear-gradient(90deg, rgba(23, 13, 201, 1) 0%, rgba(81, 81, 237, 1) 21%, rgba(236, 79, 188, 1) 54%);
+}
+
+section {
+	text-align: center;
+	width: 100%;
+}
+
+.game--container {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(3, 31%);
+	gap: 3%;
+	align-items: center;
+	width: 50%;
+	min-height: 50%;
+	margin: 10px auto;
+	padding: 5%;
+	background: rgba(255, 255, 255, 0.35);
+	color: #04c0b2;
+}
+
+.cell {
+	font-family: "Permanent Marker", cursive;
+	width: 80%;
+	height: 1em;
+	background: linear-gradient(180deg, #46ffde 0%, rgba(70, 111, 255, 0.42) 100%);
+	cursor: pointer;
+	font-size: 180px;
+	color: #ff03ff;
+	font-family: DEBUG FREE TRIAL;
+	font-style: normal;
+	font-weight: normal;
+	border-radius: 37px;
+}
+
+.game--status {
+	font-size: 50px;
+	color: #d72f9f;
+	margin: 20px auto;
+}
+
+.game--restart {
+	background-color: #acf1f7;
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	color: #5586e2;
+	border: 2px solid #9f23d8;
+	border-radius: 37px;
+}
+
+@media screen and (max-width: 1024px) {
+	.cell {
+		height: 0.7em;
+		font-size: 150px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.cell {
+		height: 0.5em;
+		font-size: 100px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cell {
+		height: 0.18em;
+		font-size: 50px;
+	}
+}
