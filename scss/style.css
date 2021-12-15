@@ -90,12 +90,12 @@ body {
 	.start {
 		width: 200px;
 		height: 50px;
-		font-size: 45px;
+		font-size: 35px;
 	}
 	.exit {
 		width: 150px;
 		height: 50px;
-		font-size: 45px;
+		font-size: 25px;
 		line-height: 30px;
 	}
 }
